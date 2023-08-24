@@ -13,7 +13,7 @@ import ModalProfile from '../../components/ModalProfile'
 import Filter from '../../components/Filter';
 import SkeletonChildren from '../../components/Skeleton';
 
-import logo from '../../assets/logo.png';
+import logo from '../../assets/Logo.png';
 import logo2 from '../../assets/favicon.png';
 import profile from '../../assets/profile.png';
 import logOutIcon from '../../assets/logOut.png';

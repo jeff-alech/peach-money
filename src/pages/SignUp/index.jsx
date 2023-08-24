@@ -1,7 +1,7 @@
 import './style.css'
 import axios from '../../api/api'
 import logo from '../../assets/favicon.png'
-import logo2 from '../../assets/logo.png'
+import logo2 from '../../assets/Logo.png'
 import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import openEye from '../../assets/openEye.png'

@@ -2,8 +2,7 @@ import { useState } from 'react';
 import { useNavigate, Link } from "react-router-dom";
 import axios from '../../api/api';
 import logo from '../../assets/favicon.png';
-import logo2 from '../../assets/logo.png';
-// import { phrases, palavrasMotivadoras } from '../../message';
+import logo2 from '../../assets/Logo.png';
 import './style.css';
 import openEye from '../../assets/openEye.png'
 import closeEye from '../../assets/closeEye.png'
@@ -11,10 +10,9 @@ import peach from '../../assets/grafico2.png'
 
 
 export default function Login() {
-  // const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
-  // const [newPhrase, setNewPhrase] = useState(palavrasMotivadoras[0].palavra);
+ 
   const [showPassword, setShowPassword] = useState(false)
-  // const [active, setActive] = useState(false)
+ 
   const [userInfo, setUserInfo] = useState({
     email: '',
     senha: '',
@@ -72,19 +70,6 @@ export default function Login() {
     }
   }
 
-
-  // function changePhrase() {
-  //   const interval = setInterval(() => {
-  //     setActive(!active);
-  //     setNewPhrase(palavrasMotivadoras[currentPhraseIndex].palavra);
-  //     setCurrentPhraseIndex((prevIndex) => (prevIndex + 1) % phrases.length);
-  //     return clearInterval(interval)
-  //   }, 2000);
-  // }
-  // useEffect(() => {
-  //   changePhrase();
-  // }, [active]);
-
   return (
     <div className='login-container'>
       <div className='section-box'>
@@ -98,10 +83,7 @@ export default function Login() {
               <h1>Controle suas <strong>finanças</strong>, sem planilha chata! Com a<strong> Peach Money</strong>.</h1>
              
                 <img className='p' src={peach} alt='Logo'></img>
-             
-              {/* <div className='btn-div-login'>
-                <button onClick={handleSignInButton}>Cadastre-se</button>
-              </div> */}
+        
             </div>
           </div>
           <div className='right-side'>
