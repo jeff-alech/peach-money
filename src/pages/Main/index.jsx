@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
-import { format } from 'date-fns';
-import { pt } from 'date-fns/locale';
+import { format } from '../../../node_modules/date-fns';
+import { pt } from '../../../node_modules/date-fns/locale';
 
 import './style.css';
 
